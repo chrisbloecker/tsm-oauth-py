@@ -6,7 +6,7 @@ To run the code in this repository, you need [Python](https://www.python.org/dow
 
 You also need [flask](https://pypi.org/project/Flask/) and [requests](https://pypi.org/project/requests/).
 Install those libraries with `pip install --user flask requests`.
-If everything is set up, you can run the app with `flask run`.
+If everything is set up, you can run the app with `flask run --port 5000` and then access it at `http://localhost:5000`.
 
 You are encouraged to use a virtual environment, for example with `pipenv`, but you don't have to.
 
