@@ -26,8 +26,8 @@ flask and requests serve only as suggestions because they are popular and it's e
 
 ## Workflow idea
 1. The user visits the index page under `/`
-  - if the user is not logged in, we display a login button
-  - if the user is logged in, we receive an access token, display a greeting with the user's name, and show a logout button
+    - if the user is not logged in, we display a login button
+    - if the user is logged in, we receive an access token, display a greeting with the user's name, and show a logout button
 2. Clicking on the login button sends the user to the `/auth` route, which then sends the user on to an authorisation URL
 3. After the user has authorised the external app to provide us with their information, they are redirected to the `/auth/callback` route where we receive a temporary code that we use to get an access token for the user's information
 4. We redirect the user back to the index page together with the access token
